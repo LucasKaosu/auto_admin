@@ -1,0 +1,22 @@
+name: core
+description: "O pacote core é projetado para fornecer funcionalidades centrais e utilitárias que podem ser reutilizadas em diferentes partes do projeto."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencias:
+    path: ../dependencias
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mocktail: 1.0.3
+
