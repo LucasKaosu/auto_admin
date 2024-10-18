@@ -1,0 +1,28 @@
+name: drive_ui
+description: "O pacote `drive_ui` é um componente essencial do sistema de design do projeto, fornecendo uma coleção de widgets e componentes de interface de usuário reutilizáveis e consistentes. Este pacote facilita a criação de interfaces de usuário coesas e visualmente atraentes, seguindo as diretrizes do design system estabelecido."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dependencias:
+    path: ../dependencias
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # To add assets to your package, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  #
+  
